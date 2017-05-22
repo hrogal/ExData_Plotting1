@@ -1,6 +1,5 @@
 ##Exploratory Data Analysis Course
 ##Plot 3 R code
-setwd("C:/Users/henry/Documents/DataAnalyst/Coursera/")
 classes<-c(rep("factor",2), rep("numeric",7))
 consumption<-read.csv("household_power_consumption.txt",na.strings = "?",header = TRUE,colClasses = classes, sep = ";")
 library(dplyr)
